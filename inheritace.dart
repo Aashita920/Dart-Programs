@@ -14,11 +14,14 @@ class Papaji extends Dadaji {
   }
 }
 
-class betaji extends Papaji {}
+class uncleji extends Dadaji {}
 
 void main() {
-  var obj = new betaji();
+  var obj = new uncleji();
   obj.cycle();
   obj.banglow();
-  obj.car();
+  var obj1 = new Papaji();
+  obj1.car();
+  obj1.banglow();
+  obj1.cycle();
 }

@@ -9,8 +9,8 @@ void main() {
   print("++a = ${++a}");
   print("--b = ${--b}");
   a = 10;
-  int y = 2;
-  print("Division: ${a ~/ y}");
+  // int y = 2;
+  print("Division: ${a ~/ b}");
   a += 2;
   print(a);
   a -= 2;
