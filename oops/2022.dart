@@ -15,4 +15,5 @@ void main() {
   for (int i = 0; i < 5; i++) {
     print("Student id: ${studentid[i]}  and Student name: ${studentname[i]}");
   }
+  print(studentid);
 }
